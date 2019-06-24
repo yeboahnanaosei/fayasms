@@ -1,0 +1,26 @@
+{
+    "name": "yeboahnanaosei/fayasms",
+    "description": "FayaSMS provides an easy way to communicate with the FayaSMS API",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["sms", "messaging", "bulk sms"],
+    "readme": "README.md",
+    "homepage": "https://github.com/yeboahnanaosei/fayasms",
+    "authors": [
+        {
+            "name": "Nana Osei Yeboah",
+            "role": "Developer",
+            "email": "yeboahnanaosei@gmail.com",
+            "homepage": "https://www.twitter.com/yeboahnanaosei"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "yeboahnanaosei\\FayaSMS\\" : "src"
+        }
+    }
+}
