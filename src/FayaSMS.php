@@ -145,7 +145,7 @@ class FayaSMS
      * @param string $description The description for the new sender ID being requested
      * @return void
      */
-    public function setSenderIDDescription(string $description)
+    private function setSenderIDDescription(string $description)
     {
         $this->params['Description'] = trim($description);
     }
