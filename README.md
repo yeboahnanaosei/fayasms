@@ -31,7 +31,7 @@ This library allows you to interact with the FayaSMS API seamlessly in your PHP 
 <br>
 
 ## Installation:
----
+
 Easily installable via composer. Just run this command in your terminal at the root of your project. Visit [Composer]("https://getcomposer.org/") to see how to use and install composer on your machine.
 ```bash
 composer require yeboahnanaosei/fayasms
@@ -41,7 +41,6 @@ composer require yeboahnanaosei/fayasms
 
 ###### [Back to top](#Contents)
 ## Usage:
----
 ### Sending single message:
 (To send a single message all you need is your appKey, appSecret and senderID. Of course you need a recipient and a message)
 ```php
