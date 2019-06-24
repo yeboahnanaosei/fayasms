@@ -223,7 +223,7 @@ class FayaSMS
      * @param string $time The time the message should be sent. Must be in this format HH:ii:ss
      * @return void
      */
-    public function scheduleMessageForLater(string $date, string $time)
+    public function scheduleMessage(string $date, string $time)
     {
         $this->params['ScheduleDate'] = $date;
         $this->params['ScheduleTime'] = $time;
