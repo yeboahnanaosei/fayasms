@@ -1,7 +1,7 @@
-# FayaSMS is a library that provides a simple interface to the [FayaSMS API]("https://www.fayasms.com/")
+# FayaSMS is a library that provides a simple interface to the <a href="https://www.fayasms.com" target="_blank" title="Go to FayaSMS's website">FayaSMS</a>
 
 
-This library allows you to interact with the FayaSMS API seamlessly in your PHP application. The API from [FayaSMS]("https://www.fayasms.com/") exposes endpoints that allow you to do several things like:
+This library allows you to interact with the FayaSMS API seamlessly in your PHP application. The API from <a href="https://www.fayasms.com" target="_blank" title="Go to FayaSMS's website">FayaSMS</a> exposes endpoints that allow you to do several things like:
 - Sending SMS (single or bulk)
 - Checking your balance
 - Get an estimate on how much an sms will cost
@@ -11,7 +11,7 @@ This library allows you to interact with the FayaSMS API seamlessly in your PHP 
 
 **This library allows you to perform all the above mentioned actions**
 . Lets take them one by one
-> NB: Please note that you need to have a registered app with [FayaSMS]("https://www.fayasms.com/") in order to use their API. Head over to [their website]("https://www.fayasms.com/") to create your account and register an app.
+> NB: Please note that you need to have a registered app with <a href="https://www.fayasms.com" target="_blank" title="Go to FayaSMS's website">FayaSMS</a> in order to use their API. Head over to <a href="https://www.fayasms.com" target="_blank" title="Go to FayaSMS's website">their website</a> to create your account and register an app.
 
 <br>
 
@@ -32,7 +32,7 @@ This library allows you to interact with the FayaSMS API seamlessly in your PHP 
 
 ## Installation:
 
-Easily installable via composer. Just run this command in your terminal at the root of your project. Visit [Composer]("https://getcomposer.org/") to see how to use and install composer on your machine.
+Easily installable via composer. Just run this command in your terminal at the root of your project. Visit <a href="https://www.getcomposer.org" target="_blank" title="Go to composer's website">Composer</a> to see how to use and install composer on your machine.
 ```bash
 composer require yeboahnanaosei/fayasms
 ```
