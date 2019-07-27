@@ -197,7 +197,7 @@ class FayaSMS
     /**
      * Set recipients of a message by supplying an array instead of a string. Convenient for bulk messaging
      *
-     * This method allows you to sent the recipients of a message by supplying an
+     * This method allows you to set the recipients of a message by supplying an
      * array instead of a string. This is very convenient for bulk messages. Just
      * pass an array of numbers for all the recipients:
      * eg ['23324XXXXXXX', '23326XXXXXXX', '23320XXXXXXX'].
@@ -206,7 +206,7 @@ class FayaSMS
      *
      * @api
      * @version 1.0.0
-     * @param array $recipients A numerically indexed array of phone numbers
+     * @param array $recipients An array of phone numbers
      * @return self
      */
     public function setRecipientsByArray(array $recipients): self
