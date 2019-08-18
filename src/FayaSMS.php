@@ -139,13 +139,16 @@ class FayaSMS
     }
 
     /**
-     * Sets the description for a new sender ID. Required when requesting for a new sender ID.
+     * Sets the description for a new sender ID.
+     * 
+     * When requesting for a new sender ID from FayaSMS, you are required to supply
+     * a description for that ID. This method allow you to set the description.
      *
      * @version 1.0.0
      * @param string $description The description for the new sender ID being requested
      * @return void
      */
-    private function setSenderIDDescription(string $description)
+    public function setSenderIDDescription(string $description)
     {
         $this->params['Description'] = trim($description);
     }
