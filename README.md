@@ -45,7 +45,7 @@ composer require yeboahnanaosei/fayasms
 (To send a single message all you need is your appKey, appSecret and senderID. Of course you need a recipient and a message)
 ```php
 <?php
-use yeboahnanaosei/FayaSMS/FayaSMS;
+use yeboahnanaosei\FayaSMS\FayaSMS;
 
 require "vendor/autoload.php";
 
@@ -77,7 +77,7 @@ $response = $fayasms->send();
 (Sending bulk message is no different from sending a single message, you just need to provide multiple phone numbers)
 ```php
 <?php
-use yeboahnanaosei/FayaSMS/FayaSMS;
+use yeboahnanaosei\FayaSMS\FayaSMS;
 
 require "vendor/autoload.php";
 
@@ -119,7 +119,7 @@ $response = $fayasms->send();
 (You can get an estimate on how many units it will cost you to send a message)
 ```php
 <?php
-use yeboahnanaosei/FayaSMS/FayaSMS;
+use yeboahnanaosei\FayaSMS\FayaSMS;
 
 require "vendor/autoload.php";
 
@@ -152,7 +152,7 @@ $fayasms->getEstimate();
 (FayaSMS allows you to retrieve all the messages you've sent. All you need is your appKey and appSecret. No sender id required)
 ```php
 <?php
-use yeboahnanaosei/FayaSMS/FayaSMS;
+use yeboahnanaosei\FayaSMS\FayaSMS;
 
 require "vendor/autoload.php";
 
@@ -176,7 +176,7 @@ $messages = $fayasms->getMessages();
 To get the id of the message you want, you will have to sift through all your sent messages for the id)
 ```php
 <?php
-use yeboahnanaosei/FayaSMS/FayaSMS;
+use yeboahnanaosei\FayaSMS\FayaSMS;
 
 require "vendor/autoload.php";
 
@@ -199,7 +199,7 @@ $message = $fayasms->getMessage($messageID);
 (You can check your unit balance from FayaSMS to determine the number of messages you can send)
 ```php
 <?php
-use yeboahnanaosei/FayaSMS/FayaSMS;
+use yeboahnanaosei\FayaSMS\FayaSMS;
 
 require "vendor/autoload.php";
 
@@ -222,7 +222,7 @@ $balance = $fayasms->getBalance();
 (You can retrieve all the sender IDs you have registered with your appKey and appSecret)
 ```php
 <?php
-use yeboahnanaosei/FayaSMS/FayaSMS;
+use yeboahnanaosei\FayaSMS\FayaSMS;
 
 require "vendor/autoload.php";
 
@@ -246,7 +246,7 @@ $senderIDs = $fayasms->getSenderIDs();
 > Please note that the sender ID you request is subject to approval
 ```php
 <?php
-use yeboahnanaosei/FayaSMS/FayaSMS;
+use yeboahnanaosei\FayaSMS\FayaSMS;
 
 require "vendor/autoload.php";
 
