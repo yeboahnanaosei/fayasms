@@ -26,6 +26,7 @@ This library allows you to interact with the FayaSMS API seamlessly in your PHP 
     - [Checking your balance](#Checking-your-balance)
     - [Retrieving your sender IDs](#Retrieving-your-sender-IDs)
     - [Requesting a new sender ID](#Requesting-a-new-sender-ID)
+  - [Contributing](#Contributing)
 
 <br>
 <br>
@@ -265,3 +266,7 @@ $description = "Description for my new sender id";
 // review
 $newSenderID = $fayasms->requestSenderID($senderID, $description);
 ```
+
+###### [Back to top](#Contents)
+## Contributing
+Suggestions and improvements are welcome. 
